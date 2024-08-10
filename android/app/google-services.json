@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "586305598547",
+    "project_id": "medlive-5acf4",
+    "storage_bucket": "medlive-5acf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586305598547:android:efd99c33f292ee1158c2a6",
+        "android_client_info": {
+          "package_name": "com.example.medlive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgY_lw6LFiopTQcflsO6tEAzjjdjh_U_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
