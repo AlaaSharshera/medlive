@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medlive/constants.dart';
-import 'package:medlive/login_signup/components/custombutton.dart';
+
 import 'package:medlive/login_signup/models/custom_screen_model.dart';
 
 class Simplescreen extends StatefulWidget {

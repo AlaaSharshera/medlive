@@ -1,18 +1,17 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:medlive/firebase_options.dart';
-
-import 'package:medlive/home/bookdoctor_screen.dart';
-import 'package:medlive/home/contactdoctor.dart';
-import 'package:medlive/home/homepage.dart';
-import 'package:medlive/login_signup/screens/bookingdone_screen.dart';
-import 'package:medlive/login_signup/screens/chatscreen.dart';
+import 'package:medlive/home/screens/bookdoctor_screen.dart';
+import 'package:medlive/home/screens/bookingdone_screen.dart';
+import 'package:medlive/home/screens/chatscreen.dart';
+import 'package:medlive/home/screens/contactdoctor.dart';
+import 'package:medlive/home/screens/homepage.dart';
+import 'package:medlive/home/screens/navbar_screen.dart';
+import 'package:medlive/home/screens/profilescreen.dart';
+import 'package:medlive/home/screens/viewmore_products_screen.dart';
 import 'package:medlive/login_signup/screens/congrats.dart';
 import 'package:medlive/login_signup/screens/login_screen.dart';
 import 'package:medlive/login_signup/screens/login_signup.dart';
-import 'package:medlive/login_signup/screens/navbar_screen.dart';
-import 'package:medlive/login_signup/screens/profilescreen.dart';
-
 import 'package:medlive/login_signup/screens/register.dart';
 import 'package:medlive/login_signup/screens/signup_screen.dart';
 import 'package:medlive/login_signup/screens/welcomeback.dart';
@@ -49,9 +48,10 @@ class Medlive extends StatelessWidget {
         'mainscreen': (context) => const MainScreen(),
         'bookdone': (context) => BookingdoneScreen(),
         'profile': (context) => const Profilescreen(),
+        'ViewmoreProductsScreen': (context) => const ViewmoreProductsScreen(),
       },
       debugShowCheckedModeBanner: false,
-      initialRoute: 'firstscreen',
+      initialRoute: 'homepage',
     );
   }
 }

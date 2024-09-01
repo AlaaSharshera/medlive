@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:medlive/home/components/simplescreen.dart';
 import 'package:medlive/login_signup/models/custom_screen_model.dart';
-import 'package:medlive/login_signup/screens/simplescreen.dart';
 
 class BookingdoneScreen extends StatelessWidget {
   BookingdoneScreen({super.key});

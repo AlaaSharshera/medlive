@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:medlive/home/contactdoctor.dart';
-import 'package:medlive/home/homepage.dart';
-
-import 'package:medlive/login_signup/screens/profilescreen.dart';
+import 'package:medlive/home/screens/contactdoctor.dart';
+import 'package:medlive/home/screens/homepage.dart';
+import 'package:medlive/home/screens/profilescreen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:medlive/login_signup/screens/chatscreen.dart';
+import 'package:medlive/home/screens/chatscreen.dart';
 
 class CustomDoctorContainer extends StatelessWidget {
   const CustomDoctorContainer({this.image, this.doctor, super.key});
