@@ -13,39 +13,39 @@ class Profilescreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           children: [
-            SizedBox(
+            const SizedBox(
               height: 100,
             ),
-            CircleAvatar(
+            const CircleAvatar(
                 radius: 50,
                 backgroundImage: AssetImage('assets/images/home/profile.png')),
-            SizedBox(
+            const SizedBox(
               height: 15,
             ),
-            Text(
+            const Text(
               "Alaa Ahmed",
               style: TextStyle(color: Colors.black, fontSize: 20),
             ),
             Container(
-              padding: EdgeInsets.symmetric(horizontal: 15),
+              padding: const EdgeInsets.symmetric(horizontal: 15),
               width: double.infinity,
               height: 50,
               child: Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.production_quantity_limits_sharp,
-                    color: const Color(0xff0EBE7E),
+                    color: Color(0xff0EBE7E),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 25,
                   ),
-                  Expanded(
+                  const Expanded(
                     child: Text(
                       "orders",
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 52,
                   ),
                   IconButton(
@@ -59,25 +59,25 @@ class Profilescreen extends StatelessWidget {
               ),
             ),
             Container(
-              padding: EdgeInsets.symmetric(horizontal: 15),
+              padding: const EdgeInsets.symmetric(horizontal: 15),
               width: double.infinity,
               height: 50,
               child: Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.production_quantity_limits_sharp,
-                    color: const Color(0xff0EBE7E),
+                    color: Color(0xff0EBE7E),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 25,
                   ),
-                  Expanded(
+                  const Expanded(
                     child: Text(
                       "bookings",
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 52,
                   ),
                   IconButton(
@@ -91,25 +91,25 @@ class Profilescreen extends StatelessWidget {
               ),
             ),
             Container(
-              padding: EdgeInsets.symmetric(horizontal: 15),
+              padding: const EdgeInsets.symmetric(horizontal: 15),
               width: double.infinity,
               height: 50,
               child: Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.production_quantity_limits_sharp,
-                    color: const Color(0xff0EBE7E),
+                    color: Color(0xff0EBE7E),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 25,
                   ),
-                  Expanded(
+                  const Expanded(
                     child: Text(
                       "offers",
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 52,
                   ),
                   IconButton(
@@ -123,25 +123,25 @@ class Profilescreen extends StatelessWidget {
               ),
             ),
             Container(
-              padding: EdgeInsets.symmetric(horizontal: 15),
+              padding: const EdgeInsets.symmetric(horizontal: 15),
               width: double.infinity,
               height: 50,
               child: Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.production_quantity_limits_sharp,
-                    color: const Color(0xff0EBE7E),
+                    color: Color(0xff0EBE7E),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 25,
                   ),
-                  Expanded(
+                  const Expanded(
                     child: Text(
                       "Delete account",
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 52,
                   ),
                   IconButton(
@@ -155,25 +155,25 @@ class Profilescreen extends StatelessWidget {
               ),
             ),
             Container(
-              padding: EdgeInsets.symmetric(horizontal: 15),
+              padding: const EdgeInsets.symmetric(horizontal: 15),
               width: double.infinity,
               height: 50,
               child: Row(
                 children: [
-                  Icon(
+                  const Icon(
                     Icons.production_quantity_limits_sharp,
-                    color: const Color(0xff0EBE7E),
+                    color: Color(0xff0EBE7E),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 25,
                   ),
-                  Expanded(
+                  const Expanded(
                     child: Text(
                       "Edit Information",
                       style: TextStyle(fontSize: 20),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 52,
                   ),
                   IconButton(

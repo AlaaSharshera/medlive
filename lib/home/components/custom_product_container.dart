@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:medlive/services/product_model.dart';
 
 class CustomProductContainer extends StatelessWidget {
-  CustomProductContainer({required this.product, super.key});
-  ProductModel product;
+  const CustomProductContainer({required this.product, super.key});
+  final ProductModel product;
   @override
   Widget build(BuildContext context) {
     return Container(

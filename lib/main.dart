@@ -51,7 +51,7 @@ class Medlive extends StatelessWidget {
         'ViewmoreProductsScreen': (context) => const ViewmoreProductsScreen(),
       },
       debugShowCheckedModeBanner: false,
-      initialRoute: 'homepage',
+      initialRoute: 'firstscreen',
     );
   }
 }

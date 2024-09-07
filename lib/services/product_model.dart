@@ -204,10 +204,8 @@ class ProductModel {
   });
 
   factory ProductModel.fromJson(Map<String, dynamic> jsonData) {
-    print('ProductModel.fromJson: $jsonData');
     var reviewsJson = jsonData['reviews'] as List<dynamic>? ?? [];
     List<Reviews> reviewsList = reviewsJson.map((reviewJson) {
-      print('Review JSON: $reviewJson');
       return Reviews.fromJson(reviewJson as Map<String, dynamic>? ?? {});
     }).toList();
 

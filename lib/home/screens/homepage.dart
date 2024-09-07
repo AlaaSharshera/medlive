@@ -124,7 +124,9 @@ class Homepage extends StatelessWidget {
                                 ))
                           ],
                         ),
-                        Image.asset('assets/images/home/doctor.png')
+                        Image.asset(
+                          'assets/images/home/pharmasist3.png',
+                        )
                       ],
                     ),
                   ),

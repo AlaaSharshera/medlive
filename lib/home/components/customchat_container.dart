@@ -20,7 +20,7 @@ class CustomContainerChat extends StatelessWidget {
             bottomRight: Radius.circular(20),
           ),
         ),
-        child: Text(
+        child: const Text(
           "kjkgrngkrnmk,ngr",
           style: TextStyle(color: Colors.white, fontSize: 16),
         ),

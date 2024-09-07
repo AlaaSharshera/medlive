@@ -33,7 +33,7 @@ class ChatScreen extends StatelessWidget {
       ),
       body: ListView.builder(
         itemBuilder: (context, index) {
-          return CustomContainerChat();
+          return const CustomContainerChat();
         },
       ),
     );
